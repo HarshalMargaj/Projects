@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[7]:
+# In[9]:
 
 
 from tkinter import *
@@ -12,7 +12,9 @@ def miles_to_km():
     km_result_label.config(text = f'{km}')
 
 root = Tk()
-root.geometry('300x140')
+root.geometry('300x170')
+root.minsize(300, 170)
+root.maxsize(300, 170)
 root.title('Miles to Kilometer Converter')
 root.config(padx = 20, pady = 20, bg = '#C1C1CD')
     
@@ -31,7 +33,7 @@ km_result_label.grid(row = 2, column = 2)
 km_label = Label(root, text = 'km', font = 'cascadiacode 18 bold', bg = '#C1C1CD', pady = 10)
 km_label.grid(row = 2, column = 3)
 
-calculate_button = Button(root, text = 'Calculate', command = miles_to_km, bg = '#C1C1CD', padx = 5, pady = 5, font = 'cascadiacode 0 bold', fg = '#595959')
+calculate_button = Button(root, text = 'Calculate', command = miles_to_km, padx = 5, pady = 5, font = 'cascadiacode 0 bold', fg = '#595959')
 calculate_button.grid(row = 3, column = 2, pady = 10)
 
 root.mainloop()
