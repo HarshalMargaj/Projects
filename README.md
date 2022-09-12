@@ -24,3 +24,11 @@ Python Projects
 7. Build Currency Converter using Tkinter GUI in python
 
 <img width="781" alt="Screenshot 2022-09-09 at 4 39 59 PM" src="https://user-images.githubusercontent.com/95522797/189340864-826d4dda-f134-4e34-a8d4-2f3878e0f474.png">
+
+8. Build Job Application Form using Tkinter GUI in Python
+<img width="1206" alt="Screenshot 2022-09-11 at 2 16 47 PM" src="https://user-images.githubusercontent.com/95522797/189519412-97647490-d2d1-41c0-b90f-be2b5bd080eb.png">
+<img width="1206" alt="Screenshot 2022-09-11 at 2 17 39 PM" src="https://user-images.githubusercontent.com/95522797/189519413-ad6dc38a-01d6-49f5-b849-411d20e23a57.png">
+<img width="1206" alt="Screenshot 2022-09-11 at 2 18 15 PM" src="https://user-images.githubusercontent.com/95522797/189519414-86ea892d-d5e1-4fb6-9009-30c5b4bd585d.png">
+<img width="1205" alt="Screenshot 2022-09-11 at 2 18 45 PM" src="https://user-images.githubusercontent.com/95522797/189519417-6a6030d3-d7ff-47b5-a97a-a7da2aaed9db.png">
+<img width="1270" alt="Screenshot 2022-09-11 at 2 20 28 PM" src="https://user-images.githubusercontent.com/95522797/189519419-7211f70d-8c0b-4e60-a4da-f2263c61731d.png">
+
