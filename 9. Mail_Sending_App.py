@@ -10,7 +10,7 @@ root = Tk()
 root.geometry("560x480")
 root.minsize(560, 480)
 root.maxsize(560, 480)
-root.title("Mail Sender using Python")
+root.title("Mail Sending Application")
 root.configure(padx=20, pady=10)
 
 # Fuctions
