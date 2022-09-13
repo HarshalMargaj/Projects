@@ -3,13 +3,13 @@
 ###################################################################
 from tkinter import *
 from tkinter import ttk, messagebox
+from tkmacosx import *
 import smtplib
 
 # Creating Window
 root = Tk()
 root.geometry("560x480")
-root.minsize(560, 480)
-root.maxsize(560, 480)
+root.resizable(False, False)
 root.title("Mail Sending Application")
 root.configure(padx=20, pady=10)
 
@@ -127,10 +127,15 @@ pass_input.grid(row=3, column=0, pady=10)
 # Creating Login Button
 login_button = Button(f0, 
                       text="Login", 
-                      font="RobotoMono 12 bold", 
+                      font="RobotoMono 14 bold", 
                       padx=5, 
                       pady=5, 
-                      command=login)
+                      command=login,
+                      bg = "#1b72e8",
+                      fg = "white",
+                      highlightbackground= '#ffffff',
+                      activebackground= "#1b72e8",
+                      activeforeground= '#ffffff')
 
 login_button.grid(row=4, column=0)
 
@@ -217,10 +222,15 @@ message_input.grid(row=3, column=1, pady=10)
 # Creating Send Button
 send_button = Button(f1, 
                      text="Send", 
-                     font="RobotoMono 12 bold", 
+                     font="RobotoMono 14 bold", 
                      padx=5, 
                      pady=5, 
-                     command=send)
+                     command=send,
+                     bg = "#1b72e8",
+                     fg = "white",
+                     highlightbackground= '#ffffff',
+                     activebackground= "#1b72e8",
+                     activeforeground= '#ffffff')
 
 send_button.grid(row=4, column=1, pady=(5, 5))
 
