@@ -3,7 +3,7 @@ Python Projects
 
 2. Build Calculator using Tkinter GUI in Python
 
-<img width="393" alt="Screenshot 2022-09-07 at 2 04 49 PM" src="https://user-images.githubusercontent.com/95522797/188831469-49645a4a-f348-4de4-b119-1fd0dd0a8fba.png">
+<img width="300" alt="Screenshot 2022-09-07 at 2 02 39 PM" src="https://user-images.githubusercontent.com/95522797/190119025-6459cdb4-8508-47c1-9e75-fc153e69f5ec.png">
 
 3. Build Miles to Kilometer Converter using Tkinter GUI in Python
 
@@ -11,7 +11,7 @@ Python Projects
 
 4. Build CGPA to Percentage Converter using Tkinter GUI in Python
 
-<img width="300" alt="Screenshot 2022-09-07 at 2 02 39 PM" src="https://user-images.githubusercontent.com/95522797/188831395-65fac795-da52-4165-970a-ed7c9beedf95.png">
+<img width="394" alt="Screenshot 2022-09-14 at 3 02 07 PM" src="https://user-images.githubusercontent.com/95522797/190119147-e516c23e-cac5-4a84-8ed9-47e470d80554.png">
 
 5. Build Google Translate using Tkinter GUI in Python
 
