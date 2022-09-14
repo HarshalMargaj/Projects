@@ -7,7 +7,7 @@ Python Projects
 
 3. Build Miles to Kilometer Converter using Tkinter GUI in Python
 
-<img width="293" alt="Screenshot 2022-09-07 at 2 03 45 PM" src="https://user-images.githubusercontent.com/95522797/188831443-45df2010-bf1b-4ce2-86db-72244b0a093a.png">
+<img width="394" alt="Screenshot 2022-09-14 at 3 41 10 PM" src="https://user-images.githubusercontent.com/95522797/190127563-1e6588d6-e5e7-4fae-8958-e5b5f0984398.png">
 
 4. Build CGPA to Percentage Converter using Tkinter GUI in Python
 
@@ -37,7 +37,6 @@ Python Projects
 
 <img width="554" alt="Screenshot 2022-09-13 at 10 04 33 PM" src="https://user-images.githubusercontent.com/95522797/189958386-9e76e994-3580-4603-bfdd-bbb574a989c5.png">
 <img width="555" alt="Screenshot 2022-09-13 at 10 06 26 PM" src="https://user-images.githubusercontent.com/95522797/189958398-79d546f7-71f1-4a2c-91ce-1da232d4f44a.png">
-
 
 10. Build YouTube Video Downloader using Tkinter GUI in Python
 
