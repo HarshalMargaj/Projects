@@ -1,17 +1,17 @@
-########################
-## Currency Converter ##
-########################
+################################################################
+#              * Currency Converter Application *              #
+################################################################
 
 from tkinter import *
 from tkinter import ttk, messagebox
+from tkmacosx import *
 from currency_converter import CurrencyConverter
 
 # Creating Window
 root = Tk()
-root.geometry("780x420")
-root.minsize(780, 420)
-root.maxsize(780, 420)
-root.title("Currency Converter")
+root.geometry("815x420")
+root.resizable(False, False)
+root.title("Currency Converter Application")
 root.configure(padx = 50, pady = 240, bg = "white")
 
 # Creating Variables
@@ -40,7 +40,7 @@ def convert():
                        wraplength = 450,
                        justify = "center")
         
-        label1.place(x = -410, y = -65)
+        label1.place(x = -400, y = -65)
 
         label2 = Label(root,
                        text = f"{output_label_value.get()} {to_combobox_value.get()}",
@@ -51,7 +51,7 @@ def convert():
                        wraplength = 450,
                        justify = "center")
         
-        label2.place(x = -410, y = -35)
+        label2.place(x = -400, y = -35)
 
     except Exception as e:
         messagebox.showerror("Currency Converter", e)
@@ -190,7 +190,8 @@ from_combobox.configure("Blue.TCombobox",
 from_combobox = ttk.Combobox(root, 
                              font = "RobotoMono 16 bold", 
                              state = "readonly", 
-                             textvariable = from_combobox_value)
+                             textvariable = from_combobox_value,
+                             width = 23)
 
 from_combobox["values"] = ("AUD (Australian Dollar)",
                            "BRL (Brazilian Real)",
@@ -242,7 +243,8 @@ to_combobox.configure("Blue.TCombobox",
 to_combobox = ttk.Combobox(root, 
                            font = "RobotoMono 16 bold", 
                            state = "readonly",                 
-                           textvariable = to_combobox_value)
+                           textvariable = to_combobox_value,
+                           width = 23)
 
 to_combobox["values"] = ("AUD (Australian Dollar)",
                          "BRL (Brazilian Real)",
@@ -290,7 +292,11 @@ convert_button = Button(root,
                         command = convert,
                         padx = 5,
                         pady = 5,
-                        fg = "#4d5156")
+                        bg = '#4283f3',
+                        fg = "white",
+                        activebackground= '#4283f3',
+                        activeforeground= 'white',
+                        highlightbackground= '#ffffff')
 
 convert_button.place(x = 175, y = 120)
 
@@ -301,7 +307,11 @@ reset_button = Button(root,
                       command = reset,
                       padx = 5,
                       pady = 5,
-                      fg = "blue")
+                      bg = '#ffbd03',
+                      fg = "white",
+                      activebackground= '#ffbd03',
+                      activeforeground= 'white',
+                      highlightbackground= '#ffffff')
 
 reset_button.place(x = 295, y = 120)
 
@@ -312,16 +322,21 @@ reset_all_button = Button(root,
                           command = resetall,
                           padx = 5,
                           pady = 5,
-                          fg = "red")
+                          bg = '#FF3131',
+                          fg = "white",
+                          activebackground= '#FF3131',
+                          activeforeground= 'white',
+                          highlightbackground= '#ffffff')
 
-reset_all_button.place(x = 395, y = 120)
+reset_all_button.place(x = 410, y = 120)
 
 # Currency Converter Image
 currency_converter_image = PhotoImage(file = "/Users/apple/Downloads/Untitled.001 (2).png")
 currency_converter_image_label = Label(root, 
                                        image = currency_converter_image, 
-                                       borderwidth = 4, 
-                                       relief = "ridge")
+                                       borderwidth = 6, 
+                                       relief = "ridge",
+                                       bg = '#E6E2E7')
 
 currency_converter_image_label.place(x = -30, y = -220)
 
