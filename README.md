@@ -35,8 +35,9 @@ Python Projects
 
 9. Build Mail Sending Application using Tkinter GUI in Python
 
-<img width="554" alt="Screenshot 2022-09-12 at 6 13 57 PM" src="https://user-images.githubusercontent.com/95522797/189658145-4d049ad1-3836-477b-8b81-9f6a988e27ce.png">
-<img width="552" alt="Screenshot 2022-09-12 at 6 14 26 PM" src="https://user-images.githubusercontent.com/95522797/189658166-ccad6421-660d-4790-9bc1-17231d9c46d3.png">
+<img width="554" alt="Screenshot 2022-09-13 at 10 04 33 PM" src="https://user-images.githubusercontent.com/95522797/189958386-9e76e994-3580-4603-bfdd-bbb574a989c5.png">
+<img width="555" alt="Screenshot 2022-09-13 at 10 06 26 PM" src="https://user-images.githubusercontent.com/95522797/189958398-79d546f7-71f1-4a2c-91ce-1da232d4f44a.png">
+
 
 10. Build YouTube Video Downloader using Tkinter GUI in Python
 
