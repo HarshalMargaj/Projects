@@ -15,7 +15,7 @@ Python Projects
 
 5. Build Google Translate using Tkinter GUI in Python
 
-<img width="844" alt="Screenshot 2022-09-07 at 1 57 37 PM" src="https://user-images.githubusercontent.com/95522797/188829777-c96143f0-5467-4a5c-9d5f-8513a839ffdb.png">
+<img width="844" alt="Screenshot 2022-09-14 at 1 05 04 PM" src="https://user-images.githubusercontent.com/95522797/190091392-08c6c3ad-e4e8-44ca-aefd-41ead2e159da.png">
 
 6. Build Unit Converter using Tkinter GUI in Python
 
