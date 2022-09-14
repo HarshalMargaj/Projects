@@ -1,21 +1,23 @@
+########################################################
+#           * Unit Converter Application *             #
+########################################################
+
 from tkinter import *
 from tkinter import ttk, messagebox
-from unitconvert import (
-    lengthunits,
-    volumeunits,
-    massunits,
-    digitalunits,
-    timeunits,
-    temperatureunits,
-)
+from tkmacosx import *
+from unitconvert import (lengthunits,
+                         volumeunits,
+                         massunits,
+                         digitalunits,
+                         timeunits,
+                         temperatureunits)
 
 # Creating Window
 root = Tk()
-root.title("Unit Converter")
+root.title("Unit Converter Application")
 root.geometry("550x300")
-root.minsize(550, 300)
-root.maxsize(550, 300)
-root.config(padx=43, pady=90)
+root.resizable(False, False)
+root.configure(padx=43, pady=90)
 
 # Creating Variables
 user_input_value = IntVar()
@@ -291,30 +293,36 @@ convert_button = Button(root,
                         text="CONVERT", 
                         font="RobotoMono 12 bold", 
                         command=convert,
-                        fg="#4F4F4F",
-                        activeforeground="green", 
                         padx=10, 
-                        pady=5)
+                        pady=5,
+                        bg="#4283f3",
+                        fg="white",
+                        activebackground="#4283f3",
+                        activeforeground="white")
               
 # Reset Button
 reset_button = Button(root,
                       text="RESET",
                       font="RobotoMono 12 bold",
                       command=reset,
-                      fg="#0000FF",
-                      activeforeground="#0000FF",
                       padx=10,
-                      pady=5)
+                      pady=5,
+                      bg = '#ffbd03',
+                      fg = "white",
+                      activebackground= '#ffbd03',
+                      activeforeground= 'white')
 
 # Reset All Button
 reset_all_button = Button(root,
                           text="RESET ALL",
                           font="RobotoMono 12 bold",
                           command=resetall,
-                          fg="red",
-                          activeforeground="red",
                           padx=10,
-                          pady=5)
+                          pady=5,
+                          bg = '#FF3131',
+                          fg = "white",
+                          activebackground= '#FF3131',
+                          activeforeground= 'white')
 
 # packing
 # Labels
@@ -325,9 +333,9 @@ user_input.grid(row=1, column=1)
 output_label.grid(row=2, column=1, padx=10, pady=10)
 
 # Buttons
-convert_button.place(x=68, y=150)
-reset_button.place(x=184, y=150)
-reset_all_button.place(x=279, y=150)
+convert_button.place(x=43, y=150)
+reset_button.place(x=174, y=150)
+reset_all_button.place(x=299, y=150)
 
 # Comboboxes
 unit_combobox.grid(row=0, column=1, padx=10, pady=10)
