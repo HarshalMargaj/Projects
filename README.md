@@ -19,7 +19,7 @@ Python Projects
 
 6. Build Unit Converter using Tkinter GUI in Python
 
-<img width="545" alt="Screenshot 2022-09-07 at 2 11 11 PM" src="https://user-images.githubusercontent.com/95522797/188832808-4c6bd5b8-a4be-42bb-9f26-ba6da924941e.png">
+<img width="544" alt="Screenshot 2022-09-14 at 1 25 17 PM" src="https://user-images.githubusercontent.com/95522797/190096084-5881da9c-f2c2-4097-8dc7-6a526d4eb23a.png">
 
 7. Build Currency Converter Application using Tkinter GUI in python
 
